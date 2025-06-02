@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "item_rodapes",
+  "info": {
+    "singularName": "item-rodape",
+    "pluralName": "item-rodapes",
+    "displayName": "ItemRodape",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Nome": {
+      "type": "string"
+    }
+  }
+}

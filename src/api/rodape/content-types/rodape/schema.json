@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rodapes",
+  "info": {
+    "singularName": "rodape",
+    "pluralName": "rodapes",
+    "displayName": "Rodape",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "item_rodapes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::item-rodape.item-rodape"
+    }
+  }
+}
